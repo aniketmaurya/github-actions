@@ -28,3 +28,4 @@ jobs:
         KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
       run: |
         bash scripts/kaggle_download.sh
+        echo kaggle dataset downloaded!
